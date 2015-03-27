@@ -1,5 +1,7 @@
 //! Memory initialization
 
+#![allow(trivial_casts)]
+
 /// Initializes the .data section
 pub fn initialize_data() {
     extern {
